@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Thêm Danh Mục</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/file.css">
+
+</head>
+<body>
+	<div class="col-xs-12">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">THÊM MỚI DANH MỤC</h2>
+                    <form action="/add" method="POST">
+                        <div class="form-group">
+
+                        	<label class="col-xs-3">Tên Danh Mục</label>
+                            <div class="col-xs-9"><input  class="form-control" type="text" name="name" placeholder="Nhập tên danh mục" /></div><br><br><br>
+
+                        	<label class="col-xs-3">Loại Danh Mục</label>
+                            <div class="col-xs-9">
+	                            <select name="gender" class="form-control">
+	                            	<option value="0">Đèn Âm Trần</option>
+	                            	<option value="1">Đèn Xưởng</option>
+	                            	<option value="2">Đèn Tube</option>
+	                            	<option value="3">Đèn Pha</option>
+	                            	<option value="4">Đèn Bulb</option>
+	                            	<option value="5">Đèn Đường</option>
+	                            	<option value="6">Đèn Rọi</option>
+	                            	<option value="6">Đèn Panel</option>
+
+	                            </select>
+                            </div>
+						</div><br><br><br><br>
+
+                        <input class="btn btn-info pull-left col-xs-3" type="submit" name="add" value="ADD NEW"/>
+                        <a href="listsp.html"><input class="btn btn-danger pull-right col-xs-3" type="button" value="↵BACK" ></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

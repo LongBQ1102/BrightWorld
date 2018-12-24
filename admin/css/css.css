@@ -1,0 +1,20 @@
+body{
+	background-color: #F9F9F9;
+}
+
+.container {
+	width: 1170px
+	
+}
+input{
+	padding: 108px 12px;
+	
+}
+.input.btn.btn-info.pull-center.col-xs-3{
+	padding: 108px 12px;
+
+}
+.btn{
+	padding: 108px 12px;
+
+}
